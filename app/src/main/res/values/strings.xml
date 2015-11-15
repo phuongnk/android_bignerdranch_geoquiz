@@ -3,7 +3,9 @@
     <string name="action_settings">Settings</string>
     <string name="true_button_label">TRUE</string>
     <string name="false_button_label">FALSE</string>
-    <string name="next_button_label">Next Question</string>
+    <string name="launch_cheat_activity_button_label">Cheat!</string>
+    <string name="previous_button_label">Previous</string>
+    <string name="next_button_label">Next</string>
     <string name="correct_toast_msg">You are Correct!</string>
     <string name="incorrect_toast_msg">Wrong! Try again!</string>
 
@@ -13,4 +15,12 @@
     <string name ="question_americas"> The Amazon River is the longest river in the Americas.</string>
     <string name ="question_asia">Lake Baikal is the world\'s oldest and deepest freshwater lake.</string>
     <string name ="question_ann">Ann is a crazy girl.</string>
+
+    <string name="cheat_warning_text">Are you sure you want to do this?</string>
+    <string name="cheat_show_answer_button_label">Show Answer</string>
+    <string name="cheat_cancel_button_label">Cancel! My conscience prohibits me from cheating</string>
+    <string name="cheat_judgement_toast_msg">Cheating is wrong</string>
+    <string name="cheat_appreciation_toast_msg">Thank you for not cheating! You are so brave!</string>
+    <string name="cheat_activity_title">Cheat</string>
+
 </resources>

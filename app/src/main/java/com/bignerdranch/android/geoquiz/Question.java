@@ -22,7 +22,7 @@ public class Question {
         mQuestionStringResourceId = pQuestionStringResourceId;
     }
 
-    public boolean isAnswer() {
+    public boolean isAnswerTrue() {
         return mAnswer;
     }
 
