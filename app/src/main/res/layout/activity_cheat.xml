@@ -20,6 +20,14 @@
         tools:text="Answer"
         android:id="@+id/cheatAnswerTextView"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        tools:text="Answer"
+        android:id="@+id/userCheatedTextView"/>
+
+
     <Button
         android:id="@+id/cheatShowAnswerButton"
         android:layout_width="wrap_content"

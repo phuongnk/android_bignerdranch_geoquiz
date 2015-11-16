@@ -4,6 +4,7 @@
     <string name="true_button_label">TRUE</string>
     <string name="false_button_label">FALSE</string>
     <string name="launch_cheat_activity_button_label">Cheat!</string>
+    <string name="launch_cheat_activity_button_label_again">Cheat again on this same question!</string>
     <string name="previous_button_label">Previous</string>
     <string name="next_button_label">Next</string>
     <string name="correct_toast_msg">You are Correct!</string>
