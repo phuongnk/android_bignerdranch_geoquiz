@@ -1,6 +1,7 @@
 package com.bignerdranch.android.geoquiz;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -19,6 +20,7 @@ public class CheatActivity extends AppCompatActivity {
     private Button mCancelButton;
     private TextView mCheatAnswerTextView;
     private TextView mUserCheatedTextView;
+    private TextView mAPILevelTextView;
 
     private void setAnswerShownResult(boolean pAnswerShown) {
         Intent returnIntent = new Intent();
@@ -47,7 +49,8 @@ public class CheatActivity extends AppCompatActivity {
         mUserCheatedTextView = (TextView) findViewById(R.id.userCheatedTextView);
         showIfUserCheated();
         mCancelButton = (Button) findViewById(R.id.cheatCancelButton);
-
+        mAPILevelTextView = (TextView) findViewById(R.id.cheat_android_api_level_textview);
+        mAPILevelTextView.setText("API Level " + Build.VERSION.SDK_INT);
         if (savedInstanceState != null) {
             mUserCheated = savedInstanceState.getBoolean(EXTRA_USER_CHEATED, false);
         }
